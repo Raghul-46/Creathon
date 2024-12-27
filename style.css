@@ -1,0 +1,327 @@
+body {
+    background-color: #000000;
+    margin: 0px;
+    font-family: "Roboto", serif;
+        font-weight: 700;
+        font-style: normal;
+    color: #5f1c1c;
+}    
+
+
+
+.header {
+
+    background: url('str.jpg') no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    color: #000000;
+    text-shadow: 10px 0px 10px #9e2b2b;
+    justify-content: space-around;
+
+}
+
+.item-2,
+.item-3 {
+    justify-content: end;
+}
+.footer{
+    display: flex;
+    margin-left: 30px;
+    flex-direction: row;
+}
+.footer span{
+    margin-left: 50px;
+}
+
+.fmovie,.fmovie1 {
+    display: inline-block;
+    width:10px;
+    color: #6d1010;
+    background-color:  #6d1010;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.button{
+    display: inline;
+    margin-left: 30px;
+    background-color: rgb(137, 29, 29);
+    color: #000000;
+    font-size: larger;
+    width: 150px;
+    height: 40px;
+    border: 2px solid #230606;
+    margin-top: 25px;
+}
+
+/********************************************************************************************************/
+/*top movies*/
+.box,.box1,.box2,.box3,.box4,.box5 {
+    box-shadow: 30px 0px 100px;
+    height: 500px;
+    margin-bottom: 100px;
+
+}
+#nxt{
+    height: 70px;
+    width: 20px;
+    background-color: rgb(137, 29, 29);
+    color: #000000;
+    font-size: larger;
+    background-blend-mode: screen;
+    position: absolute;
+    top: 70%;
+    right: 0%;    
+}
+#nxt1{
+    height: 70px;
+    width: 20px;
+    background-color: rgb(137, 29, 29);
+    color: #000000;
+    font-size: larger;
+    background-blend-mode: screen;
+    position: absolute;
+    top: 185%;
+    right: 0%; 
+} 
+#nxt2{
+    height: 70px;
+    width: 20px;
+    background-color: rgb(137, 29, 29);
+    color: #000000;
+    font-size: larger;
+    background-blend-mode: screen;
+    position: absolute;
+    top: 300%;
+    right: 0%; 
+} 
+#nxt3{
+    height: 70px;
+    width: 20px;
+    background-color: rgb(137, 29, 29);
+    color: #000000;
+    font-size: larger;
+    background-blend-mode: screen;
+    position: absolute;
+    top: 415%;
+    right: 0%; 
+}
+#nxt4{
+    height: 70px;
+    width: 20px;
+    background-color: rgb(137, 29, 29);
+    color: #000000;
+    font-size: larger;
+    background-blend-mode: screen;
+    position: absolute;
+    top: 530%;
+    right: 0%;    
+}
+#nxt5{
+    height: 70px;
+    width: 20px;
+    background-color: rgb(137, 29, 29);
+    color: #000000;
+    font-size: larger;
+    background-blend-mode: screen;
+    position: absolute;
+    top: 645%;
+    right: 0%;    
+}
+
+#prev{
+    height: 70px;
+    width: 20px;
+    background-color: rgb(137, 29, 29);
+    color: #000000;
+    font-size: larger;
+    position: absolute;
+    top: 70%;
+    left: 0%;    
+}
+
+#prev1{
+    height: 70px;
+    width: 20px;
+    background-color: rgb(137, 29, 29);
+    color: #000000;
+    font-size: larger;
+    position: absolute;
+    top: 185%;
+    left: 0%;    
+}
+#prev2{
+    height: 70px;
+    width: 20px;
+    background-color: rgb(137, 29, 29);
+    color: #000000;
+    font-size: larger;
+    position: absolute;
+    top: 300%;
+    left: 0%;    
+}
+#prev3{
+    height: 70px;
+    width: 20px;
+    background-color: rgb(137, 29, 29);
+    color: #000000;
+    font-size: larger;
+    position: absolute;
+    top: 415%;
+    left: 0%;    
+}
+#prev4{
+    height: 70px;
+    width: 20px;
+    background-color: rgb(137, 29, 29);
+    color: #000000;
+    font-size: larger;
+    position: absolute;
+    top: 530%;
+    left: 0%;    
+}
+#prev5{
+    height: 70px;
+    width: 20px;
+    background-color: rgb(137, 29, 29);
+    color: #000000;
+    font-size: larger;
+    position: absolute;
+    top: 645%;
+    left: 0%;    
+}
+
+#movie {
+    position: relative;
+    left: 600px;
+    top: 70px;
+    width: 400px;
+    height: 600px;
+    transform-style: preserve-3d;
+    animation: rotate 25s infinite linear;
+}
+@keyframes rotate {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+#movie1{
+    position: relative;
+    left: 600px;
+    top: 70px;
+    width: 400px;
+    height: 600px;
+    transform-style: preserve-3d;
+    animation: rotate1 25s infinite linear;
+}
+@keyframes rotate1 {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+#movie2 {
+    position: relative;
+    left: 600px;
+    top: 70px;
+    width: 400px;
+    height: 600px;
+    transform-style: preserve-3d;
+    animation: rotate2 25s infinite linear;
+}
+@keyframes rotate2 {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+#movie3 {
+    position: relative;
+    left: 600px;
+    top: 70px;
+    width: 400px;
+    height: 600px;
+    transform-style: preserve-3d;
+    animation: rotate3 25s infinite linear;
+}
+@keyframes rotate3 {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+#movie4 {
+    position: relative;
+    left: 600px;
+    top: 70px;
+    width: 400px;
+    height: 600px;
+    transform-style: preserve-3d;
+    animation: rotate4 25s infinite linear;
+}
+@keyframes rotate4 {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+#movie5 {
+    position: relative;
+    left: 600px;
+    top: 70px;
+    width: 400px;
+    height: 600px;
+    transform-style: preserve-3d;
+    animation: rotate5 25s infinite linear;
+}
+@keyframes rotate5 {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+.img ,.img1,.img2 ,.img3,.img4,.img5{
+    position: absolute;
+    width: 804px;
+    height: 454px;
+    background-color: #e6e0e0;
+    transform: rotateY(calc(var(--i) *45deg)) translateZ(1050px);
+}
+
+
+
+.img img,.img1 img,.img2 img,.img3 img,.img4 img,.img5 img {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    align-self: center;
+    width: 800px;
+    height: 450px;
+    object-fit: cover;
+}
+
+/********************************************************************************************************/
+/*tamil movies*/
